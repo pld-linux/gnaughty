@@ -8,13 +8,14 @@ Group:		X11/Applications
 Source0:	http://download.sourceforge.net/gnaughty/%{name}-%{version}.tar.gz
 # Source0-md5:	60b83c4aa814838688e1697411ed9cbe
 URL:		http://gnaughty.sourceforge.net/
-BuildRequires:	GConf2-devel
+BuildRequires:	GConf2-devel >= 2.0
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	curl-devel
-BuildRequires:	gtk+2-devel
-BuildRequires:	libglade2-devel
+BuildRequires:	gtk+2-devel >= 1:2.0.0
+BuildRequires:	libglade2-devel >= 2.0
 BuildRequires:	pcre-devel
+BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
