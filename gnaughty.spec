@@ -54,6 +54,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS README NEWS
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/%{name}
-%{_desktopdir}/*
+%{_desktopdir}/*.desktop
 %{_pixmapsdir}/*
 %{_sysconfdir}/gconf/schemas/*
