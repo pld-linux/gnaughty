@@ -1,5 +1,5 @@
 Summary:	Frontend to the movies section of sublimedirectory.com
-Summary(pl):	Frontend do sekcji filmów z sublimedirectory.com
+Summary(pl.UTF-8):   Frontend do sekcji filmÃ³w z sublimedirectory.com
 Name:		gnaughty
 Version:	1.1.1
 Release:	1
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 gnaughty is a frontend to the movies section of sublimedirectory.com,
 written in GTK+2 for the Linux operating system.
 
-%description -l pl
-gnaughty to frontend do sekcji filmów z sublimedirectory.com napisany
+%description -l pl.UTF-8
+gnaughty to frontend do sekcji filmÃ³w z sublimedirectory.com napisany
 w GTK+2 dla systemu operacyjnego Linux.
 
 %prep
