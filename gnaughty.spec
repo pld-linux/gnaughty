@@ -1,5 +1,5 @@
 Summary:	Frontend to the movies section of sublimedirectory.com
-Summary(pl.UTF-8):   Frontend do sekcji filmów z sublimedirectory.com
+Summary(pl.UTF-8):	Frontend do sekcji filmów z sublimedirectory.com
 Name:		gnaughty
 Version:	1.1.1
 Release:	1
